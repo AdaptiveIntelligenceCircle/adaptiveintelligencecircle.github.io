@@ -1,45 +1,72 @@
-:root {
-  --vp-c-bg: #0a0a0a;
-  --vp-c-bg-alt: #111111;
-  --vp-c-bg-soft: #151515;
-
-  --vp-c-brand-1: #00f0ff;
-  --vp-c-brand-2: #00bcd4;
-  --vp-c-brand-3: #0097a7;
-
-  --vp-c-text-1: #e6e6e6;
-  --vp-c-text-2: #b3b3b3;
-  --vp-c-text-3: #888;
+* {
+  box-sizing: border-box;
 }
 
-.VPNavBar {
-  background: rgba(0, 0, 0, 0.7);
+body {
+  margin: 0;
+  background: #000;
+  color: #e6e6e6;
+  font-family: 'Inter', sans-serif;
+}
+
+.aic-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aic-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 1000;
 }
 
-.VPContent {
-  background: radial-gradient(
-    circle at top,
-    rgba(0, 240, 255, 0.08),
-    transparent 40%
-  );
+.aic-nav .logo {
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-h1, h2, h3 {
-  letter-spacing: 0.5px;
+.aic-nav .links a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #aaa;
+  transition: color 0.3s ease;
 }
 
-a {
-  transition: all 0.25s ease;
+.aic-nav .links a:hover {
+  color: #00ffff;
 }
 
-a:hover {
-  color: var(--vp-c-brand-1);
-  text-shadow: 0 0 8px rgba(0,240,255,0.6);
+.aic-main {
+  padding-top: 100px;
+  width: 100%;
 }
 
-.VPHero {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.landing {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 40px;
+}
+
+.reading {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
 }
