@@ -1,0 +1,45 @@
+:root {
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-soft: #151515;
+
+  --vp-c-brand-1: #00f0ff;
+  --vp-c-brand-2: #00bcd4;
+  --vp-c-brand-3: #0097a7;
+
+  --vp-c-text-1: #e6e6e6;
+  --vp-c-text-2: #b3b3b3;
+  --vp-c-text-3: #888;
+}
+
+.VPNavBar {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.VPContent {
+  background: radial-gradient(
+    circle at top,
+    rgba(0, 240, 255, 0.08),
+    transparent 40%
+  );
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
+
+a {
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: var(--vp-c-brand-1);
+  text-shadow: 0 0 8px rgba(0,240,255,0.6);
+}
+
+.VPHero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}

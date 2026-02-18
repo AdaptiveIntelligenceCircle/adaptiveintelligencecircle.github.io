@@ -1,13 +1,19 @@
-
----
-
-## 📂 `docs/what-is-aic.md`
-```markdown
 # What is AIC?
 
-AIC is a **circle of adaptive intelligence**.  
-It is not a product, not a framework — but a **protocol for meaning**.
+Adaptive Intelligence Circle (AIC) is a research and governance initiative 
+focused on designing adaptive systems that remain stable under long-term pressure.
 
-- Humans and agents co-orchestrate understanding.  
-- Knowledge is encoded into networks.  
-- Ethics is embedded at the kernel.  
+AIC is not:
+
+- A startup
+- A product company
+- A short-term research lab
+
+AIC is:
+
+- An institutional architecture initiative
+- A resilience-oriented design movement
+- A civilizational infrastructure project
+
+The objective is to ensure intelligence remains aligned with 
+ethical and structural stability.
