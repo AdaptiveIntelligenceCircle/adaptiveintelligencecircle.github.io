@@ -1,6 +1,13 @@
 # Welcome to Adaptive Intelligence Circle
 
-AIC is a non-profit, open-source ecosystem for ethical AI and human meaning in a post-scarcity future.
+# Adaptive Intelligence Circle
+
+Welcome to the official site of **Adaptive Intelligence Circle (AIC)**. AIC is not a framework — it is a **knowledge ecosystem** where humans and agents co-orchestrate meaning.
+
+Explore our philosophy, networks, and vision for ethical AI in a post-scarcity world.
+
+
+<!-- AIC is a non-profit, open-source ecosystem for ethical AI and human meaning in a post-scarcity future.
 
 - Ethical from the kernel (AIC)
 - Decentralized planetary network (AIN)
@@ -22,4 +29,4 @@ bridging reasoning, security, and human-centered AI at the operating system leve
 
 Join us if you believe in meaning over profit.
 
-Many thanks.
+Many thanks. -->

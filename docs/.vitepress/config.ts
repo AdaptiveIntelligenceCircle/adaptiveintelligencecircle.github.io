@@ -8,6 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/org.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
@@ -16,7 +17,17 @@ export default defineConfig({
       { text: 'Repos', link: 'https://github.com/AdaptiveIntelligenceCircle' },
       { text: 'Contribute', link: '/contribute' }
     ],
+
     sidebar: [
+      {
+        text: 'Introduction',
+        items: [
+          { text: 'Home', link: '/' },
+          { text: 'About', link: '/about' },
+          { text: 'Vision', link: '/vision' },
+          { text: 'Contribute', link: '/contribute' }
+        ]
+      },
       {
         text: 'Philosophy',
         items: [
@@ -31,16 +42,26 @@ export default defineConfig({
           { text: 'AIN - Decentralized Network', link: '/ain' },
           { text: 'HMN - Human Meaning Network', link: '/hmn' }
         ]
+      },
+      {
+        text: 'Technical',
+        items: [
+          { text: 'Config.ts', link: '/config' },
+          { text: 'Index.html', link: '/index-html' }
+        ]
       }
     ],
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AdaptiveIntelligenceCircle' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/adaptive-intelligence-circle/' }
     ],
+
     footer: {
       message: 'Released under the GPL-3.0 License.',
       copyright: '© 2026 Adaptive Intelligence Circle'
     },
+
     editLink: {
       pattern: 'https://github.com/AdaptiveIntelligenceCircle/aic-project.github.io/edit/main/:path',
       text: 'Edit this page on GitHub'
