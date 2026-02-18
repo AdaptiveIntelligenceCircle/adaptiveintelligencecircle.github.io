@@ -13,7 +13,7 @@
 
       <p class="statement">
         Building long-term intelligence infrastructure
-        for societal coherence, safety and alignment.
+        for societal coherence and alignment.
       </p>
     </div>
   </section>
