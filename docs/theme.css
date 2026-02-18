@@ -1,38 +1,38 @@
-:root {
-  /* Gradient background */
+/* :root {
+  /* Gradient background 
   --vp-c-bg: linear-gradient(135deg, #0f0f0f, #2a2a2a, #c0c0c0);
   --vp-c-bg-alt: #1a1a1a;
   --vp-c-text: #e0e0e0;
   --vp-c-brand: #c0c0c0;
   --vp-c-brand-light: #d9d9d9;
   --vp-c-border: #333333;
-}
+} */
 
-/* Body background with gradient */
+/* Body background with gradient 
 body {
   background: var(--vp-c-bg);
   color: var(--vp-c-text);
 }
 
-/* Header */
+/* Header 
 .VPNavBar {
   background: rgba(15, 15, 15, 0.9);
   border-bottom: 1px solid var(--vp-c-border);
 }
 
-/* Sidebar */
+/* Sidebar 
 .VPSidebar {
   background: rgba(26, 26, 26, 0.95);
 }
 
-/* Footer */
+/* Footer 
 .VPFooter {
   background: rgba(15, 15, 15, 0.9);
   color: var(--vp-c-text);
   border-top: 1px solid var(--vp-c-border);
 }
 
-/* Links */
+/* Links 
 a {
   color: var(--vp-c-brand);
   transition: color 0.3s ease;
@@ -41,7 +41,7 @@ a:hover {
   color: var(--vp-c-brand-light);
 }
 
-/* Buttons */
+/* Buttons 
 button {
   background: linear-gradient(135deg, #2a2a2a, #c0c0c0);
   color: #0f0f0f;
@@ -51,4 +51,134 @@ button {
 }
 button:hover {
   background: linear-gradient(135deg, #c0c0c0, #ffffff);
+} 
+
+*/
+
+/* :root {
+  --vp-c-bg: #0b0f14;
+  --vp-c-bg-soft: #11161c;
+  --vp-c-bg-mute: #161b22;
+
+  --vp-c-text-1: #e6edf3;
+  --vp-c-text-2: #9da7b3;
+  --vp-c-text-3: #6e7681;
+
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+
+  --vp-c-divider: #22272e;
 }
+
+body {
+  background-color: var(--vp-c-bg);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+/* Hero title 
+.VPHero .name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Navbar 
+.VPNav {
+  backdrop-filter: blur(10px);
+  background: rgba(11, 15, 20, 0.8);
+}
+
+/* Smooth hover 
+a {
+  transition: all 0.2s ease;
+}
+*/
+
+:root {
+
+  /* Background system */
+  --vp-c-bg: #0b0f14;
+  --vp-c-bg-soft: #11161c;
+  --vp-c-bg-mute: #161b22;
+
+  /* Text */
+  --vp-c-text-1: #e6edf3;
+  --vp-c-text-2: #9da7b3;
+  --vp-c-text-3: #6e7681;
+
+  /* Brand */
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+
+  --vp-c-divider: #22272e;
+}
+
+/* Global */
+body {
+  background-color: var(--vp-c-bg);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.VPHero {
+  background: radial-gradient(
+    circle at 50% 20%,
+    rgba(59, 130, 246, 0.08),
+    transparent 60%
+  );
+}
+
+/* Navbar blur */
+.VPNav {
+  backdrop-filter: blur(12px);
+  background: rgba(11, 15, 20, 0.85);
+  border-bottom: 1px solid #1f242b;
+}
+
+/* Subtle page entrance */
+.VPContent {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hero emphasis */
+.VPHero .name {
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.VPHero .text {
+  font-weight: 400;
+  color: var(--vp-c-text-2);
+}
+
+/* Links */
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* Section divider spacing */
+h2 {
+  margin-top: 3rem;
+}
+
+
+
+
+

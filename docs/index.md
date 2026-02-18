@@ -1,32 +1,41 @@
-# Welcome to Adaptive Intelligence Circle
+---
+layout: home
+hero:
+  name: "Adaptive Intelligence Circle"
+  text: "Rebuilding Intelligence. Restoring Meaning."
+  tagline: "Protecting civilization through adaptive systems, ethical governance, and long-term resilience."
+  actions:
+    - theme: brand
+      text: Explore Philosophy
+      link: /philosophy/
+    - theme: alt
+      text: View Technology
+      link: /technology/
+---
 
-# Adaptive Intelligence Circle
+## A Civilizational Initiative
 
-Welcome to the official site of **Adaptive Intelligence Circle (AIC)**. AIC is not a framework — it is a **knowledge ecosystem** where humans and agents co-orchestrate meaning.
+Adaptive Intelligence Circle (AIC) is a long-term research and governance initiative 
+focused on adaptive intelligence infrastructure.
 
-Explore our philosophy, networks, and vision for ethical AI in a post-scarcity world.
+We develop systems designed not merely for performance, 
+but for resilience, ethical integrity, and societal continuity.
 
+---
 
-<!-- AIC is a non-profit, open-source ecosystem for ethical AI and human meaning in a post-scarcity future.
+## Strategic Focus
 
-- Ethical from the kernel (AIC)
-- Decentralized planetary network (AIN)
-- Human Meaning Network (HMN)
+- Adaptive AI Architecture  
+- Institutional Governance Design  
+- Human Meaning Networks  
+- Secure Infrastructure and Self-Defense  
 
-## ⚙️ Core Principles
-1. Transparency — All research and code are fully open under the Apache 2.0 license.
+---
 
-2. Adaptivity — Systems must evolve based on context, uncertainty, and prior knowledge.
+## Long-Term Vision
 
-3. Trust — Every component is designed for interpretability and reliability.
+AIC exists to ensure that intelligence — artificial or human — 
+remains aligned with civilizational stability.
 
-4. Human Alignment — AI should protect and augment, not replace, human capability.
-
-5. Long-term Stability — Focus on controlled intelligence over uncontrolled power.
-
-Together, these projects aim to form a distributed cognitive infrastructure —
-bridging reasoning, security, and human-centered AI at the operating system level.
-
-Join us if you believe in meaning over profit.
-
-Many thanks. -->
+This is not a product.
+This is infrastructure.
