@@ -1,0 +1,54 @@
+:root {
+  /* Gradient background */
+  --vp-c-bg: linear-gradient(135deg, #0f0f0f, #2a2a2a, #c0c0c0);
+  --vp-c-bg-alt: #1a1a1a;
+  --vp-c-text: #e0e0e0;
+  --vp-c-brand: #c0c0c0;
+  --vp-c-brand-light: #d9d9d9;
+  --vp-c-border: #333333;
+}
+
+/* Body background with gradient */
+body {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text);
+}
+
+/* Header */
+.VPNavBar {
+  background: rgba(15, 15, 15, 0.9);
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: rgba(26, 26, 26, 0.95);
+}
+
+/* Footer */
+.VPFooter {
+  background: rgba(15, 15, 15, 0.9);
+  color: var(--vp-c-text);
+  border-top: 1px solid var(--vp-c-border);
+}
+
+/* Links */
+a {
+  color: var(--vp-c-brand);
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--vp-c-brand-light);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #2a2a2a, #c0c0c0);
+  color: #0f0f0f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+button:hover {
+  background: linear-gradient(135deg, #c0c0c0, #ffffff);
+}
