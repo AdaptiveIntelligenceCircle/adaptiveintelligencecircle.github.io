@@ -7,19 +7,26 @@ export default defineConfig({
 
   lastUpdated: true,
 
+  head: [
+    ['meta', { name: 'keywords', content: 'AIC, Human Meaning Network, Ethical AI, Post-Scarcity, Adaptive Intelligence' }],
+    ['meta', { name: 'author', content: 'Adaptive Intelligence Circle' }]
+  ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/org.png', // đặt logo trong thư mục public/
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Vision', link: '/vision' },
-      { text: 'Repos', link: 'https://github.com/AdaptiveIntelligenceCircle' },  // thay bằng link GitHub org thật của bạn
+      { text: 'Docs', link: '/docs/' },
+      { text: 'Repos', link: 'https://github.com/AdaptiveIntelligenceCircle' },
       { text: 'Contribute', link: '/contribute' }
     ],
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: 'Philosophy',
         items: [
           { text: 'What is AIC?', link: '/what-is-aic' },
           { text: 'Third Path Philosophy', link: '/third-path' }
@@ -27,6 +34,7 @@ export default defineConfig({
       },
       {
         text: 'Networks',
+        collapsed: false,
         items: [
           { text: 'AIN - Decentralized Network', link: '/ain' },
           { text: 'HMN - Human Meaning Network', link: '/hmn' }
@@ -35,13 +43,13 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AdaptiveIntelligenceCircle' },  // thay bằng GitHub org
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/adaptive-intelligence-circletelligence-circle/?viewAsMember=true' }  // link Company Page bạn vừa tạo
+      { icon: 'github', link: 'https://github.com/AdaptiveIntelligenceCircle' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/adaptive-intelligence-circle/' }
     ],
 
     footer: {
       message: 'Released under the GPL-3.0 License.',
-      copyright: 'Copyright © 2026 Nguyễn Đức Trí & AIC Contributors'
+      copyright: '© 2026 Adaptive Intelligence Circle'
     },
 
     editLink: {
