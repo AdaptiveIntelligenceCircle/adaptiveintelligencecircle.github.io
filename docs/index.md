@@ -11,6 +11,36 @@ hero:
     - theme: alt
       text: View Technology
       link: /technology/
+      
+<script setup>
+import CathedralHero from './.vitepress/theme/components/CathedralHero.vue'
+</script>
+
+<CathedralHero />
+
+<section class="cathedral-section">
+  <h2>Philosophy</h2>
+  <p>
+    Intelligence is not merely computation.
+    It is adaptive structure across time.
+  </p>
+</section>
+
+<section class="cathedral-section">
+  <h2>Ecosystem</h2>
+  <p>
+    AIC coordinates institutional, technological,
+    and governance layers into a coherent whole.
+  </p>
+</section>
+
+<section class="cathedral-section">
+  <h2>Technology</h2>
+  <p>
+    Infrastructure designed for long-term societal alignment.
+  </p>
+</section>
+
 ---
 
 ## A Civilizational Initiative

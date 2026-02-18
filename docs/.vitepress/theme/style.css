@@ -1,72 +1,64 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
-  background: #000;
-  color: #e6e6e6;
+  background: #050505;
+  color: #e8e8e8;
   font-family: 'Inter', sans-serif;
 }
 
-.aic-root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-.aic-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  backdrop-filter: blur(12px);
-  background: rgba(0,0,0,0.6);
+.cathedral-hero {
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  text-align: center;
   padding: 0 40px;
-  z-index: 1000;
 }
 
-.aic-nav .logo {
-  font-weight: 700;
-  letter-spacing: 2px;
+.cathedral-hero .inner {
+  max-width: 900px;
 }
 
-.aic-nav .links a {
-  margin-left: 30px;
-  text-decoration: none;
-  color: #aaa;
-  transition: color 0.3s ease;
+.cathedral-hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
 }
 
-.aic-nav .links a:hover {
-  color: #00ffff;
-}
-
-.aic-main {
-  padding-top: 100px;
-  width: 100%;
-}
-
-.landing {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 100px 40px;
-}
-
-.reading {
+.cathedral-section {
+  padding: 160px 40px;
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 40px;
+  text-align: center;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.cathedral-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-h2 {
-  margin-top: 3rem;
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  margin-bottom: 2rem;
+}
+
+.statement {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+.glow {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 70%);
+  filter: blur(150px);
+  z-index: -1;
 }
