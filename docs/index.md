@@ -21,3 +21,5 @@ Together, these projects aim to form a distributed cognitive infrastructure —
 bridging reasoning, security, and human-centered AI at the operating system level.
 
 Join us if you believe in meaning over profit.
+
+Many thanks.
