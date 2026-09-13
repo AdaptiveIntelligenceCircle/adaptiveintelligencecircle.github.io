@@ -1,4 +1,4 @@
-/* body {
+body {
   margin: 0;
   background: #050505;
   color: #e8e8e8;
@@ -61,7 +61,7 @@ h1, h2 {
   background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 70%);
   filter: blur(150px);
   z-index: -1;
-} */
+}
 
 .aic-root { min-height: 100vh; display: flex; flex-direction: column; }
 .aic-main { flex: 1; width: 100%; }
