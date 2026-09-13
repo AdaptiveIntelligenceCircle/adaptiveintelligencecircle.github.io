@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background: #050505;
   color: #e8e8e8;
@@ -61,4 +61,36 @@ h1, h2 {
   background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 70%);
   filter: blur(150px);
   z-index: -1;
+} */
+
+.aic-root { min-height: 100vh; display: flex; flex-direction: column; }
+.aic-main { flex: 1; width: 100%; }
+
+.landing, .reading {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  line-height: 1.7;
 }
+
+.landing h1, .reading h1 { font-size: 2.25rem; margin-bottom: 0.75rem; }
+.landing h2, .reading h2 { font-size: 1.35rem; margin-top: 2.5rem; opacity: 0.95; }
+
+.landing table, .reading table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.25rem 0;
+}
+.landing th, .landing td, .reading th, .reading td {
+  border: 1px solid #222;
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+}
+.landing blockquote, .reading blockquote {
+  border-left: 2px solid #444;
+  margin: 1.25rem 0;
+  padding-left: 1rem;
+  opacity: 0.85;
+}
+.landing a, .reading a { color: #c8c8c8; }
