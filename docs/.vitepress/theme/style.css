@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background: #050505;
   color: #e8e8e8;
@@ -93,4 +93,106 @@ h1, h2 {
   padding-left: 1rem;
   opacity: 0.85;
 }
-.landing a, .reading a { color: #c8c8c8; }
+.landing a, .reading a { color: #c8c8c8; } */
+
+/* === AIC full black canvas === */
+:root {
+  --vp-c-bg: #050505;
+  --vp-c-bg-alt: #0a0a0a;
+  --vp-c-bg-elv: #0c0c0c;
+  --vp-c-bg-soft: #111111;
+
+  --vp-c-border: #222222;
+  --vp-c-divider: #1a1a1a;
+  --vp-c-gutter: #050505;
+
+  --vp-c-text-1: #e8e8e8;
+  --vp-c-text-2: #a3a3a3;
+  --vp-c-text-3: #737373;
+
+  --vp-c-brand-1: #d4d4d4;
+  --vp-c-brand-2: #a3a3a3;
+  --vp-c-brand-3: #737373;
+
+  --vp-nav-bg-color: #050505;
+  --vp-footer-bg-color: #050505;
+  --vp-sidebar-bg-color: #050505;
+
+  --vp-c-bg-nav: #050505;
+  --vp-c-bg-mute: #111111;
+}
+
+html,
+body {
+  margin: 0;
+  background: #050505 !important;
+  color: #e8e8e8;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Nav / content / footer shells */
+.VPNav,
+.VPNavBar,
+.VPNavScreen,
+.VPFooter,
+.VPContent,
+.Layout,
+.aic-root {
+  background: #050505 !important;
+}
+
+.VPNavBar {
+  border-bottom: 1px solid #1a1a1a !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #f0f0f0;
+}
+
+/* Reading width */
+.landing,
+.reading,
+.VPDoc .container,
+.vp-doc {
+  max-width: 720px;
+}
+
+.vp-doc table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid #222;
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+}
+
+.vp-doc img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 1.25rem 0;
+}
+
+.vp-doc blockquote {
+  border-left: 2px solid #333;
+  color: #b0b0b0;
+}
+
+/* Optional hero glow (use only if you wrap a block) */
+.glow {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.06), transparent 70%);
+  filter: blur(120px);
+  z-index: -1;
+  pointer-events: none;
+}
