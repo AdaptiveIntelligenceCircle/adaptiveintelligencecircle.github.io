@@ -20,7 +20,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/org.png',
+    logo: '/The-Legends.png',
     siteTitle: 'AIC',
 
     nav: [
